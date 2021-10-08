@@ -10,8 +10,9 @@ class Board
     public:
         Board();
         Board(int test);
+        void signalProp();
     private:
-    std::vector<Pedal> theBoard;
+        std::vector<Pedal> theBoard;
 };
 
 #endif
